@@ -4,7 +4,7 @@ Tout d'abord, exécutez le script mnist.py en utilisant Python 3. Cela va extrai
 ```python3 mnist.py```  
 
 Ensuite, compilez le programme en utilisant un compilateur C  
-```gcc -o program program.c```  
+```gcc main.c -o program -lm```  
 
 Enfin, exécutez le programme compilé.  
 
